@@ -1,0 +1,46 @@
+body{
+    background-color: aquamarine;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.card{
+    width: 200px;
+    height: 350px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px purple;
+    margin-top: 20px;
+    background: #969cb9;
+    background: radial-gradient(circle,rgba(63,94,251,1)0%,rgba(252,70,107,1)100%);
+    overflow: hidden;
+}
+.card img{
+    width: 100%;
+    height: 150px;
+    background-color: blue;
+    border-radius: 15px;
+}
+
+         .btn-grad {background-image: linear-gradient(to right, #24C6DC 0%, #514A9D  51%, #24C6DC  100%)}
+         .btn-grad {
+            margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+          }
+
+          .btn-grad:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+         
+        
