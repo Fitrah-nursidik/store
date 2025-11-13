@@ -1,19 +1,15 @@
-body{
-    background-color: aquamarine;
-}
 .container{
     display: flex;
     justify-content: center;
-    gap: 10px;
-}
+    gap: 10px;}
 .card{
     width: 200px;
     height: 350px;
     border-radius: 15px;
-    box-shadow: 5px 5px 5px purple;
+    box-shadow: 2px 2px 2px blue;
     margin-top: 20px;
-    background: #969cb9;
-    background: radial-gradient(circle,rgba(63,94,251,1)0%,rgba(252,70,107,1)100%);
+    background: #f40000ff;
+    background:  #f40000ff;;
     overflow: hidden;
 }
 .card img{
@@ -22,8 +18,29 @@ body{
     background-color: blue;
     border-radius: 15px;
 }
-
-         .btn-grad {background-image: linear-gradient(to right, #24C6DC 0%, #514A9D  51%, #24C6DC  100%)}
+.iklan{
+    width: 34rem;
+    border-radius: 15px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+.iklan img{
+    width: 34rem;
+    height: 250px;
+    background-color: blue;
+    border-radius: 15px;}
+.kategori{
+    width: 100px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+.kategori img{
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+    border-radius: 100%;}
+    
+         .btn-grad {background-image: linear-gradient(to right, #0099F7 0%, #F11712  51%, #0099F7  100%)}
          .btn-grad {
             margin: 10px;
             padding: 15px 45px;
@@ -43,4 +60,3 @@ body{
             text-decoration: none;
           }
          
-        
