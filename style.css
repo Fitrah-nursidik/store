@@ -1,13 +1,13 @@
 .container{
     display: flex;
     justify-content: center;
-    gap: 10px;}
+    gap: 25px;}
 .card{
     width: 200px;
     height: 350px;
     border-radius: 15px;
     box-shadow: 2px 2px 2px blue;
-    margin-top: 20px;
+    margin-top: 25px;
     background: #f40000ff;
     background:  #f40000ff;;
     overflow: hidden;
@@ -59,4 +59,5 @@
             color: #fff;
             text-decoration: none;
           }
+
          
