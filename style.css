@@ -31,12 +31,12 @@
     border-radius: 15px;}
 .kategori{
     width: 100px;
-    margin-top: 20px;
+    margin-top: 30px;
     overflow: hidden;
 }
 .kategori img{
-    width: 100%;
-    height: 100px;
+    width: 50%;
+    height: 50px;
     background-color: blue;
     border-radius: 100%;}
     
@@ -61,3 +61,4 @@
           }
 
          
+
